@@ -1,0 +1,162 @@
+[
+  {
+    "id": "NOTE-01",
+    "input_note": "uh quick note on room 204 Mrs. Gable slipped near the bathroom around 2 pm nobody saw her go down she says she feels fine no headache just shaken up oh and remember she's on Eliquis for her afib vitals right now are 128 over 78",
+    "expected_rule_ids": ["RULE-FALL-01"],
+    "expected_category": "fall",
+    "expected_urgency": "high",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-02",
+    "input_note": "checked on Mr. Vance in 112 skin on his left heel is pretty red doesn't fade when you press on it nurse aide started rubbing lotion into it earlier I told her to stop we turned him onto his right side at 4 pm",
+    "expected_rule_ids": ["RULE-SKIN-03"],
+    "expected_category": "skin_integrity",
+    "expected_urgency": "medium",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-03",
+    "input_note": "Ms. Ortiz in 105 barely drank anything since yesterday maybe 500 ml total lips look super dry and her urine is really dark amber BP is 102 over 64",
+    "expected_rule_ids": ["RULE-HYD-02"],
+    "expected_category": "hydration",
+    "expected_urgency": "medium",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-04",
+    "input_note": "hey just realized Mr. Patel missed his 8 am levothyroxine tablet it's already 11:15 am should we just give him two pills with lunch or what",
+    "expected_rule_ids": ["RULE-MED-04"],
+    "expected_category": "medication",
+    "expected_urgency": "medium",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-05",
+    "input_note": "room 302 Mrs. Lindqvist got really sweaty and shaky before lunch checked her fingerstick and it came back at 61 she's awake and talking fine",
+    "expected_rule_ids": ["RULE-GLUC-05"],
+    "expected_category": "hypoglycemia",
+    "expected_urgency": "high",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-06",
+    "input_note": "Mr. Brooks in 219 suddenly started breathing heavy sitting in his recliner pulse ox is reading 89 percent on room air he doesn't have COPD on his chart",
+    "expected_rule_ids": ["RULE-RESP-06"],
+    "expected_category": "respiratory",
+    "expected_urgency": "high",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-07",
+    "input_note": "Mrs. Chen in 118 is usually super sharp but this afternoon she's suddenly super confused and complaining it burns when she pees no fever yet",
+    "expected_rule_ids": ["RULE-UTI-07"],
+    "expected_category": "infection_uti",
+    "expected_urgency": "medium",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-08",
+    "input_note": "during dinner Mr. Kowalski started coughing hard right after drinking his water and his voice sounded kind of gurgly afterwards",
+    "expected_rule_ids": ["RULE-DYSP-08"],
+    "expected_category": "swallowing",
+    "expected_urgency": "high",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-09",
+    "input_note": "Ms. Davis in 210 is grimacing and guarding her right hip says the pain is an 8 out of 10 right now",
+    "expected_rule_ids": ["RULE-PAIN-09"],
+    "expected_category": "pain",
+    "expected_urgency": "medium",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-10",
+    "input_note": "just took Mr. Meyer's temp in 304 and it's 38.4 celsius breathing a bit fast at 24 breaths a minute BP is 96 over 58",
+    "expected_rule_ids": ["RULE-TEMP-10"],
+    "expected_category": "fever_sepsis",
+    "expected_urgency": "high",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-11",
+    "input_note": "Mrs. Novak has dementia and has been pacing the hallway yelling for her husband for 20 minutes she isn't hitting anyone just really worked up and noisy near the TV lounge",
+    "expected_rule_ids": ["RULE-AGIT-11"],
+    "expected_category": "behavioral",
+    "expected_urgency": "low",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-12",
+    "input_note": "heads up on room 109 Mr. Silva has had four watery bowel movements since 7 am this morning",
+    "expected_rule_ids": ["RULE-GI-12"],
+    "expected_category": "gastrointestinal",
+    "expected_urgency": "medium",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-13",
+    "input_note": "Mrs. Becker in 201 tripped over her slippers in front of me I caught her before she hit the floor no head bump she's not on any blood thinners and feels totally normal",
+    "expected_rule_ids": ["RULE-FALL-01"],
+    "expected_category": "fall",
+    "expected_urgency": "low",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-14",
+    "input_note": "Mr. Hoffman in 114 has a history of hypertension BP today is 138 over 84 drank 1400 ml of water and urine is pale yellow",
+    "expected_rule_ids": [],
+    "expected_category": null,
+    "expected_urgency": null,
+    "should_abstain": true
+  },
+  {
+    "id": "NOTE-15",
+    "input_note": "Mr. Miller in 308 complained of mild seasonal allergies and asked for extra pillows before dinner family visited around 5 pm everything else normal",
+    "expected_rule_ids": [],
+    "expected_category": null,
+    "expected_urgency": null,
+    "should_abstain": true
+  },
+  {
+    "id": "NOTE-16",
+    "input_note": "Ms. Fischer in 207 wants her toenails trimmed tomorrow morning and asked if bingo is still at 3 pm on Thursday",
+    "expected_rule_ids": [],
+    "expected_category": null,
+    "expected_urgency": null,
+    "should_abstain": true
+  },
+  {
+    "id": "NOTE-17",
+    "input_note": "routine check on Mr. Weber in 311 slept 8 hours ate 100 percent of breakfast vitals completely stable no complaints",
+    "expected_rule_ids": [],
+    "expected_category": null,
+    "expected_urgency": null,
+    "should_abstain": true
+  },
+  {
+    "id": "NOTE-18",
+    "input_note": "Mrs. Klein in 102 says her reading glasses broke and asked us to call her daughter so she can bring the spare pair",
+    "expected_rule_ids": [],
+    "expected_category": null,
+    "expected_urgency": null,
+    "should_abstain": true
+  },
+  {
+    "id": "NOTE-19",
+    "input_note": "Mr. Braun in 215 bumped his forehead on the closet door while reaching for a sweater he takes warfarin daily no nausea right now",
+    "expected_rule_ids": ["RULE-FALL-01"],
+    "expected_category": "fall",
+    "expected_urgency": "high",
+    "should_abstain": false
+  },
+  {
+    "id": "NOTE-20",
+    "input_note": "Mr. Richter in 120 has very dry mouth and only took in 600 ml fluids all day his blood pressure just dropped to 85 over 52",
+    "expected_rule_ids": ["RULE-HYD-02"],
+    "expected_category": "hydration",
+    "expected_urgency": "high",
+    "should_abstain": false
+  }
+]
